@@ -1,0 +1,87 @@
+.heroSection-outer {
+    padding: 20px;
+    text-align: center;
+}
+
+.heroSection-outer h1 {
+    font-size: 60px; 
+    line-height: 48px; 
+    margin: 10px 0; 
+}
+
+.heroSection-outer p {
+    font-size: 16px; 
+    line-height: 24px; 
+    padding: 0 20px; 
+    margin: 10px 0;
+    width: 40%;
+}
+
+.home{
+    display: none;
+}
+@media screen and (min-width: 375px) {
+    .heroSection-outer {
+        padding: 10px;
+    }
+
+    .heroSection-outer h1 {
+        font-size: 22px;  /* Adjust font size */
+        line-height: 28px; /* Adjust line height */
+        margin: 8px 0;
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden; /* Hide overflow text */
+        text-overflow: ellipsis; /* Add ellipsis to overflow text */
+        font-weight: 50;
+    }
+
+    .heroSection-outer p {
+        font-size: 14px; 
+        line-height: 20px; 
+        padding: 0 10px; 
+        margin: 8px 0;
+        width: 300px;
+    }
+
+    .home{
+        display: block;
+    }
+
+    .homeOpacity{
+        opacity: 0.5;
+    }
+
+    .positionDiv{
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .heroSection-outer {
+        padding: 40px;
+    }
+
+    .heroSection-outer h1 {
+        font-size: 48px ;
+        line-height: 60px; 
+        margin: 20px 0; 
+        font-weight: 300;
+    }
+
+    .heroSection-outer p {
+        font-size: 18px;
+        line-height: 30px; 
+        padding: 0 100px; 
+        margin: 20px 0; 
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (min-width: 710px) {
+    .home{
+        display: none;
+    }
+}
