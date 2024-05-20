@@ -16,14 +16,14 @@ const ProductCard = ({ product }) => {
 
                 <div className="productDescription" >
                     <div>
-                        <p>
-                        <span style={{ textDecoration: 'underline' }}>Sign in</span> or Create an account to see pricing
+                        <p id="signtext">
+                        <span  style={{ textDecoration: 'underline' }}>Sign in</span> or Create an account to <br id="break"/>see pricing
                         </p>
                     </div>
                     <div>  <Image src={png?.heart}
                         alt="Heart Icon"
-                        width={19}
-                        height={19}
+                        width={5}
+                        height={5}
                         className="heart-icon"
                     /></div>
                 </div>
