@@ -26,13 +26,13 @@
     }
 
     .heroSection-outer h1 {
-        font-size: 22px;  /* Adjust font size */
-        line-height: 28px; /* Adjust line height */
+        font-size: 22px;  
+        line-height: 28px; 
         margin: 8px 0;
-        white-space: nowrap; /* Prevent text wrapping */
-        overflow: hidden; /* Hide overflow text */
-        text-overflow: ellipsis; /* Add ellipsis to overflow text */
-        font-weight: bold;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        font-weight: 500;
     }
 
     .heroSection-outer p {
