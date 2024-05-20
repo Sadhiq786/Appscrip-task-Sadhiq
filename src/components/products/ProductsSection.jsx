@@ -144,7 +144,7 @@ const ProductsSection = () => {
                         <div className="filter-section">
                             <div className="checkbox-container">
                                 <input type="checkbox" id="checkbox" />
-                                <label htmlFor="checkbox"> &nbsp; &nbsp; Customizable</label>
+                                <label htmlFor="checkbox"> &nbsp; &nbsp; <b>CUSTOMIZABLE</b></label>
                             </div>
                             {filters.map((filter, index) => (
                                 <Filter key={index} filter={filter}
