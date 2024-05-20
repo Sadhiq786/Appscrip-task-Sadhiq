@@ -8,6 +8,7 @@ const ProductCard = ({ product }) => {
         <div className={"productCard"}>
             <div className={"productImage"} >
                 <Image src={product?.image} alt={product?.title} width={160} height={180} style={{ objectFit: "contain" }} />
+                
 
             </div>
 

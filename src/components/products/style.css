@@ -177,7 +177,7 @@
     }
     
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 320px) {
     .product-section {
         grid-template-columns: repeat(2, 1fr); 
     }
