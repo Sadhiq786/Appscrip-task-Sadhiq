@@ -267,7 +267,7 @@ border: none;
   }
 
 
-  @media screen and (min-width: 320px) and (max-width: 750px) {
+  @media screen and (min-width: 320px) and (max-width: 425px) {
     
     #break{
       display: block;
@@ -275,10 +275,6 @@ border: none;
 
     #signtext{
       font-size: 9.6px;
-      color: rgb(90, 90, 90);
+      color: rgb(60, 60, 60);
     }
-  }
-
-  @media screen and (min-width: 320px) and (max-width: 426px) {
-
   }
