@@ -32,7 +32,7 @@
         white-space: nowrap; /* Prevent text wrapping */
         overflow: hidden; /* Hide overflow text */
         text-overflow: ellipsis; /* Add ellipsis to overflow text */
-        font-weight: 50;
+        font-weight: bold;
     }
 
     .heroSection-outer p {
