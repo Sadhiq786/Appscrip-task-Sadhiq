@@ -1,0 +1,263 @@
+
+.filter {
+  cursor: pointer;
+    margin-top: 10px;
+    border-bottom: 1px solid #888792;
+    padding: 25px 25px 25px 3px;
+}
+
+.filter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #888792;
+    text-decoration: underline;
+
+}
+
+.checkbox-container{
+  padding: 15px 15px 15px 3px;
+}
+
+input[type=checkbox]{
+  height: 18px;
+  width: 18px;
+}
+
+
+h4 {
+    margin: 0;
+}
+
+.productCard.skeleton {
+  background-color: #f0f0f0;
+}
+
+.productImage.skeleton {
+  width: 100%;
+  height: 200px; /* Adjust height based on actual image aspect ratio */
+}
+
+
+
+.productTitle.skeleton,
+.productDescription.skeleton {
+  background-color: #e0e0e0;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.productDescription.skeleton {
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton-line {
+  background-color: #d0d0d0;
+  height: 10px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+
+.filter label {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.2px;
+    padding: 5px;
+}
+
+.accordionHeaderSection {
+    display: flex;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.productCard {
+    width: 235px;
+    height: 320px;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
+
+.productImage {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.productDetails {
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 280px;
+}
+
+.productTitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.heart-icon {
+  width: 19px; 
+  height: 19px; 
+  background-image: url('../../../public/images/heart.png'); 
+  background-size: cover;
+  cursor: pointer;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.heart-icon:hover {
+  background-image: url('../../../public/images/Redheart.png'); 
+}
+
+.productDescription {
+font-weight: 300;
+line-height: 16px;
+text-align: left;
+font-size: 11px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+width: 100%;
+color: #888792;
+}
+.productDescription div{
+  width: 80%;
+}
+
+.productDescription button{
+background: white;
+border: none;
+}
+
+
+.productActions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+
+
+
+/* spinner */
+
+.loader {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 30px, 0 -30px;
+    border-radius: 4px;
+    background: currentColor;
+    display: block;
+    margin: -50px auto 0;
+    position: relative;
+    color: #FFF;
+    transform: translateY(30px);
+    box-sizing: border-box;
+    animation: animloader 2s ease infinite;
+  }
+  
+  .loader::after,
+  .loader::before {
+    content: '';
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 30px, 0 -30px;
+    border-radius: 4px;
+    background: currentColor;
+    color: #FFF;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    animation: animloader 2s 0.2s ease infinite;
+  }
+  
+  .loader::before {
+    animation-delay: 0.4s;
+    left: 60px;
+  }
+  
+  @keyframes animloader {
+    0% {
+      top: 0;
+      color: white;
+    }
+  
+    50% {
+      top: 30px;
+      color: rgba(255, 255, 255, 0.2);
+    }
+  
+    100% {
+      top: 0;
+      color: white;
+    }
+  }
+  
+  .gradientBlur {
+    background: rgb(199, 198, 84);
+    background: radial-gradient(circle, rgba(199, 198, 84, 0.7372198879551821) 0%, rgba(252, 70, 107, 0) 100%);
+  }
+
+  @media screen and (max-width: 750px) {
+
+    .productTitle {
+      margin: 0;
+      font-size: 15px;
+      font-weight: bold;
+      width: 180px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  
+  }
+
+    .productCard {
+      width: 159px;
+    
+      border-radius: 8px;
+      /* overflow: hidden; */
+      transition: transform 0.3s ease;
+  }
+  
+  .productDetails {
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 240px;
+
+}
+
+
+.productDescription {
+  font-weight: 100;
+  line-height: 16px;
+  text-align: left;
+  font-size: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  }
+
+  }
