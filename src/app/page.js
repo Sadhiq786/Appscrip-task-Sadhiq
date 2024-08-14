@@ -1,6 +1,6 @@
 import Image from "next/image";
-import MainSection from "@/components/Main/Index";
-import GetItems from "@/components/Items/Index";
+import MainSection from "@/Components/Main/Index";
+import GetItems from "@/Components/Items/Index";
 
 export default function Home() {
   return (
